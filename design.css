@@ -1,0 +1,258 @@
+body{
+    width: 1440px;
+    height: 1016px;
+    margin: 8px 0px 0px 8px;
+    background: linear-gradient(90deg, #57CB9B 0%, #1C1515 100%);
+    /* margin-left: 44px;
+    margin-top: 46px; */
+}
+.box1{
+    width:987px;
+    height:647px;
+    padding: 8px 20px 8px 20px;
+    border-radius: 16px 0 0 0;
+    border: 1px solid #000;
+    background: linear-gradient(240deg, rgba(100, 196, 207, 0.70) 39.79%, rgba(122, 225, 81, 0.70) 72.59%);
+   
+    position: relative;
+        
+}
+.menu{
+display: inline-flex;
+padding: 10px 0;
+align-items: center;
+gap: 64px;
+}
+.ContactMe{
+border-radius: 24px;
+background: #FFF;
+ display: flex;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+h1{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 13px;
+align-self: stretch;
+
+}
+
+.despara{
+display: flex;
+width: 409px;
+height: 80px;
+flex-direction: column;
+justify-content: center;
+color: #364153;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.48px;
+
+}
+.box2{
+width: 200px;
+height: 300px;
+border-radius: 28px 0 28px 28px;
+border: 1px solid #C3BFBF;
+background: url('WhatsApp Image 2025-12-29 at 12.58.40 PM.jpeg') -20px -0.291px / 111.57% 100.971% no-repeat;
+box-shadow: 0 4px 10px 4px rgba(77, 43, 43, 0.25);
+position: absolute;
+right: 70px;
+top: 140px;
+
+}
+.navbar{
+ display: flex;
+width: 951px;
+height: 51px;
+padding: 10px;
+justify-content: space-between;
+align-items: center;
+margin: 180px 0px 87px 0px;
+}
+.float-name{
+display: inline-flex;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: rgba(92, 111, 187, 0.20);
+
+position:absolute;
+top: 30px;
+right: -40px;
+}
+.float-role{
+    background: rgba(92, 111, 187, 0.20);
+    border-radius: 8px 0px ;
+    padding: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+    position: absolute;
+    top: 150px;
+    left: -50px;
+}
+.ContactMe{
+    position: absolute;
+    top: 62px;
+    right: 105px;
+}
+.box3{
+    width: 987px;
+    height: 299px;
+    background-color:lightgray;
+    padding: 8px 20px 8px 20px;
+    border: 1px;
+
+    position:absolute;
+    top: 673px;
+    left:8px;
+    right: 369px;
+    /* bottom: -102px; */
+}
+.box4{
+width: 272.544px;
+height: 216px;
+background: url(<path-to-image>) rgb(130, 40, 40) 0px -46.463px / 105.304% 121.388% no-repeat;
+position: absolute;
+top: 41px;
+bottom: 58px;
+left: 76px;
+right: 678.46px;
+
+}
+.line{
+width: 987px;
+height: 2px;
+background: linear-gradient(90deg, #1AD63D 50%,#287CCF 50%);
+position: absolute;
+top: 285px; 
+bottom: 30px;
+}
+.line_text{
+color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.48px;
+
+position: absolute;
+left: 351px;
+right: 350px;
+bottom:14px;
+top: 291px;
+    
+}
+.headerTextBox3{
+display: flex;
+height: 37px;
+flex-direction: column;
+justify-content: center;
+align-self: stretch;
+color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.48px;
+
+position: absolute;
+top: 75px;
+left: 380px;
+right:118px;
+
+}
+.desTextBox3{
+ color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.48px;
+position: absolute;
+top: 112px;
+bottom: 196px;
+left: 380px;
+right: 194px;
+}
+.learnmore{
+padding: 5.05px;
+border-radius: 4.038px;
+position: absolute;
+top: 169px;
+left: 380px;
+bottom: 125px;
+right: 594px;
+
+
+}
+.box5{
+    height: 1024px;
+    width: 340px;
+    background-color: #000;
+    align-content: end;
+    position: absolute;
+    left:1120px;
+    right: -20px;
+    top:0px;
+}
+.box6{
+   
+    width: 340px;
+    background-color: #FFF;
+    height: 340px;
+
+    position: absolute;
+    top:0px;
+}
+.box7{
+      
+    width: 340px;
+    background-color:gray;
+    height: 340px;
+
+    position: absolute;
+    top: 340px;
+
+}
+.box9{
+    height: 40px;
+    width: 90px;
+    background-color: blue;
+}
+.box10{
+     height: 40px;
+    width: 90px;
+    background-color: blue;
+
+}
+.box11{
+    height: 40px;
+    width: 90px;
+    background-color: blue;
+    position: absolute;
+    left: 100px;
+
+}
+.box12{
+    height: 40px;
+    width: 90px;
+    background-color: blue;
+    position: absolute;
+    
+}

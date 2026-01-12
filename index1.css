@@ -1,0 +1,40 @@
+#email {
+
+    text-align: center;
+
+}
+.container{
+    text-align: center;
+}
+h1{
+     text-align: center;
+    color: blue;
+
+}
+body{ 
+    
+
+    text-align: center;
+}
+.password{
+  
+    text-align: center;
+}
+#new_account{
+
+background: #77e08a;
+text-align: center;
+
+}
+.para1{
+    color: rgb(67, 67, 165);
+}
+.para_2{
+    color: black;
+}
+.box-1{
+    height: fit-content;
+    width:fit-content;
+    background-color: bisque;
+    margin: auto;
+}

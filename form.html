@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <div class="formContainer">
+    <form action="">
+ <div>
+    <label for="f_name">
+      First name:  <input type="text" name="f_name" id="f_name" placeholder="enter your first name">
+     </label>
+</div>
+<div>
+    <label for="l_name">
+     last name: <input type="text" name="l_name" id="l_name" placeholder="enter your last name">
+    </label>
+</div>
+<div>
+    <label for="email">
+        Email:<input type="email" name="email" id="email">
+    </label>
+</div>
+<div>
+    <label for="password">
+        password: <input type="password" name="password" id="password">
+    </label>
+</div>
+<div>
+    
+    <label for="subject"> choose one of them:
+       <input type="checkbox" name="social" id="subject" checked>social
+        <input type="checkbox" name="social" id="subject"> math
+    </label>
+</div>
+<div>
+    <fieldset>
+         <legend><strong>choose your gender</strong></legend>
+            <label for ="gender">
+            Male:<input type="radio" name="gender" id="male">
+            Female:<input type="radio" name="gender" id="female">
+            </label>
+     </fieldset>    
+    
+</div>
+<div><label for="hobby">
+   choose your hobby <select name="hobby" id="hobby"> 
+        <option value="dancing"> dancing</option>
+        <option value="singing"> singing</option>
+        <option value="reading">reading</option>
+        <option value="sleeping">sleeping</option>
+    </select>
+</label></div>
+<div>
+    <label for="date">
+        <input type="date" name="date">
+    </label>
+</div>
+<div>
+      <button type="submit"> submit </button>
+</div>
+
+
+    </form>  
+    </div>
+</body>
+</html>
