@@ -231,22 +231,44 @@ right: 594px;
 
 }
 .box9{
-    height: 40px;
-    width: 90px;
-    background-color: blue;
+display: flex;
+width: 306px;
+height: 146px;
+
+border-radius: 12px 0 0 12px;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+position: absolute;
+left: 30px;
+top:92px;
+bottom: 102px;
+
+
 }
 .box10{
-     height: 40px;
-    width: 90px;
-    background-color: blue;
+    width: 140.848px;
+    height: 89.091px;
+    flex-shrink: 0;
+    border-radius: 13.576px 0 13.576px 13.576px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+     position: absolute;
+    left: 188px;
+    top:100px;
+    right: 12px;
+    bottom: 161px;
 
 }
 .box11{
-    height: 40px;
-    width: 90px;
-    background-color: blue;
+    width: 140.848px;
+    height: 89.091px;
+    flex-shrink: 0;
+    border-radius: 13.576px 0 13.576px 13.576px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
     position: absolute;
-    left: 100px;
+    left: 20px;
+    top:100px;
+    right:180.15;
+    bottom: 161px;
+
 
 }
 .box12{
