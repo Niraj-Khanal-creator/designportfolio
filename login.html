@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> login</title>
-    <script> login()
-        {
-
-        }
-    </script>
+ <script>
+function goToPage() {
+    window.location.href = "design.html";
+}
+</script>
 </head>
 <body>
     <form action="">
@@ -23,10 +23,8 @@
         password: <input type="password" name="password" id="password" placeholder="enter your password">
     </label>
 </div> 
-<a href="design.html">
-    <button>Login</button>
-</a>
 
+   <button onclick="goToPage()">Login</button>
 </form>
 </body>
 </html>
