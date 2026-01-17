@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> login</title>
- <script>
-function goToPage() {
-    window.location.href = "design.html";
-}
-</script>
+<link rel="stylesheet" href="login.css">
 </head>
 <body>
+    <div class="form_container">
     <form action="">
     <h1>login with your account </h1>
  <div>
     <label for="email">
-        Email:<input type="email" placeholder=" enter your email" id="email">
+        <input type="email" class="email" placeholder=" enter your email" id="email">
     </label>
 </div>
 <div>
     <label for="password">
-        password: <input type="password" name="password" id="password" placeholder="enter your password">
+     <input type="password" name="password" class="password" id="password" placeholder="enter your password">
     </label>
 </div> 
-
-   <button onclick="goToPage()">Login</button>
+<div>
+ <a href="design.html"><input type="button" value="login" class="login"></a> 
+  <a href="login.html" class="f_pass">forgoten password ?</a>
+  <p>or</p>
+  <a href="firstpage.html"><input type="button" value="signup" class="login one"></a> 
+  
+ </div>
 </form>
+</div>
 </body>
 </html>
