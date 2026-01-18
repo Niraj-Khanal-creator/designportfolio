@@ -4,40 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sign up page</title>
+   <link rel="stylesheet" href="fistpage.css">
 </head>
 <body>
-    <H1>Welcome to sign in page </H1>
-    <form action="">
-<b>sign up </b>
+  
+<div class="form_container">
+<H1>Welcome to sign in page </H1>
+<form action="">
 <div>
     <label for="f_name">
-      First name:  <input type="text" name="f_name" id="f_name" placeholder="enter your first name">
+       <input type="text" name="f_name" id="f_name" placeholder="enter your first name"  class="f_name">
      </label>
 </div>
  <div>
     <label for="l_name">
-      Last name:  <input type="text" name="f_name" id="f_name" placeholder="enter your last name">
+<input type="text" name="f_name" id="f_name" placeholder="enter your last name" class="l_name">
      </label>
 </div>
  <div>
     <label for="email">
-        Email:<input type="email" placeholder=" enter your email" id="email">
+       <input type="email" placeholder=" enter your email" id="email" class="email">
     </label>
 </div>
 <div>
     <label for="password">
-        password: <input type="password" name="password" id="password" placeholder="enter your password">
+     <input type="password" name="password" id="password" placeholder="enter your password" class="password">
     </label>
 </div>
 <div>
     <label for="password">
-        Confirm password: <input type="password" name="password" id="password" placeholder="confirm your password">
+      <input type="password" name="password" id="password" placeholder="confirm your password" class="password one">
     </label>
 </div>
 
-    <a href="login.html">already have an account ? login</a>
-    <a href="login.html">submit</a> 
-   <a href="design.html"><input type="button" value="submit"></button> </a> 
-    </form> 
+    <a href="login.html" class="login">already have an account ? login</a> 
+   <a href="login.html"><input type="button" value="submit" class="submit"> </a> 
+    </form>
+    </div> 
 </body>
 </html>
