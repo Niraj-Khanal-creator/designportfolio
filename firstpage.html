@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sign up page</title>
    <link rel="stylesheet" href="fistpage.css">
+   <script src="login.js"></script>
 </head>
 <body>
   
@@ -12,13 +13,13 @@
 <H1>Welcome to sign in page </H1>
 <form action="">
 <div>
-    <label for="f_name">
+    <label for="name">
        <input type="text" name="f_name" id="f_name" placeholder="enter your first name"  class="f_name">
      </label>
 </div>
  <div>
     <label for="l_name">
-<input type="text" name="f_name" id="f_name" placeholder="enter your last name" class="l_name">
+<input type="text" name="l_name" id="name" placeholder="enter your last name" class="l_name">
      </label>
 </div>
  <div>
@@ -33,12 +34,12 @@
 </div>
 <div>
     <label for="password">
-      <input type="password" name="password" id="password" placeholder="confirm your password" class="password one">
+      <input type="password" name="password" id="confirm_password" placeholder="confirm your password" class="password one">
     </label>
 </div>
 
     <a href="login.html" class="login">already have an account ? login</a> 
-   <a href="login.html"><input type="button" value="submit" class="submit"> </a> 
+   <a href="login.html"><input type="button" value="submit" class="submit" onclick="return validateForm()"> </a> 
     </form>
     </div> 
 </body>
